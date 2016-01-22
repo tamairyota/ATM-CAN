@@ -226,7 +226,7 @@ function createArray(csvData) {
     }////二回目以降はこっち
     else {
         for (var k = 1; k < number; k++) {
-            atmloc(csvArray[k][0], csvArray[k][1], csvArray[k][2], csvArray[k][3], csvArray[k][4], csvArray[k][5], csvArray[k][7], csvArray[k][8]);
+            atmloc(csvArray[k][0], csvArray[k][1], csvArray[k][2], csvArray[k][3], csvArray[k][4], csvArray[k][5], csvArray[k][6], csvArray[k][7]);
         }
     }
 
