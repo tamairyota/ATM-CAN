@@ -18,7 +18,7 @@ function successCallback(pos) {
     Potition_longitude = pos.coords.longitude;
 
 //window.onload= function () {
-
+    alert("d");
     //////////////////////getcookie//////////////////////////////////////
     result = new Array();
     var allcookies = document.cookie;
