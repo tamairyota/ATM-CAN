@@ -19,6 +19,8 @@ function successCallback(pos) {
 
 //window.onload= function () {
 
+    alert("d");
+    
     //////////////////////getcookie//////////////////////////////////////
     result = new Array();
     var allcookies = document.cookie;
