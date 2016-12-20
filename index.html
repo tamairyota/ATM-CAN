@@ -14,13 +14,13 @@
   <body>
       <form style='height:150px;width:300px;font-size: 100px;'>
           <!--銀行名の選択が変わった時にginkouuを呼び出し-->
-          <select id="ginkou" onchange="ginkouu()"name="ginko"style='height:150px;width:300px;font-size: 100px;' >
+          <select id="ginkou" onchange="ginkouu()"name="ginko"style='height:150px;width:300px;font-size: 50px;' >
               <option value="iyo">伊予銀行</option>
               <option value="ja">ＪＡ</option>
               <option value="ehime">愛媛銀行</option>
               <option value="aisinn">愛媛信用金庫</option>
           </select>
-          <input type="checkbox" name="heiten" value="表示" id="chbox"style='height:150px;width:300px;font-size: 100px;'>営業時間外非表示</input>
+          <input type="checkbox" name="heiten" value="表示" id="chbox"style='height:150px;width:300px;font-size: 100px;'><label style='font-size:50px'>営業時間外非表示</label>
       </form>
      
     <div id="map_canvas" style="width:100%; height:80%"></div>
